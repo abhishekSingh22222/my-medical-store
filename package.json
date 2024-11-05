@@ -1,0 +1,30 @@
+{
+  "name": "medical-store",
+  "version": "1.0.0",
+  "description": "Online medical store application with login, signup, and home dashboard.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "medical",
+    "store",
+    "online",
+    "login",
+    "signup",
+    "dashboard"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
