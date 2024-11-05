@@ -4,8 +4,11 @@
   "description": "Online medical store application with login, signup, and home dashboard.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js",                     
+    "dev": "nodemon app.js",                     
+    "build": "echo 'No build step defined.'",    
+    "test": "jest",                              
+    "lint": "eslint ."
   },
   "keywords": [
     "medical",
